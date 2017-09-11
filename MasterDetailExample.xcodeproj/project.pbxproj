@@ -35,6 +35,7 @@
 		1588813B1F65C04E001106B1 /* PostDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158881391F65C04E001106B1 /* PostDetailsViewController.xib */; };
 		1588813D1F65C061001106B1 /* PostDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588813C1F65C061001106B1 /* PostDetailsViewModel.swift */; };
 		158881431F65CF5F001106B1 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158881421F65CF5F001106B1 /* StringExtensions.swift */; };
+		15BC91841F673077003998AC /* testPostFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BC91831F673077003998AC /* testPostFieldValidator.swift */; };
 		15C66B7E1F65DA490046C678 /* NoPostsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C66B7C1F65DA490046C678 /* NoPostsCell.swift */; };
 		15C66B7F1F65DA490046C678 /* NoPostsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C66B7D1F65DA490046C678 /* NoPostsCell.xib */; };
 		15C66B811F65DA5A0046C678 /* NoPostsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C66B801F65DA5A0046C678 /* NoPostsCellViewModel.swift */; };
@@ -87,6 +88,7 @@
 		158881391F65C04E001106B1 /* PostDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostDetailsViewController.xib; sourceTree = "<group>"; };
 		1588813C1F65C061001106B1 /* PostDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsViewModel.swift; sourceTree = "<group>"; };
 		158881421F65CF5F001106B1 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		15BC91831F673077003998AC /* testPostFieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testPostFieldValidator.swift; sourceTree = "<group>"; };
 		15C66B7C1F65DA490046C678 /* NoPostsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoPostsCell.swift; path = NoPosts/NoPostsCell.swift; sourceTree = "<group>"; };
 		15C66B7D1F65DA490046C678 /* NoPostsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoPostsCell.xib; path = NoPosts/NoPostsCell.xib; sourceTree = "<group>"; };
 		15C66B801F65DA5A0046C678 /* NoPostsCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoPostsCellViewModel.swift; path = NoPosts/NoPostsCellViewModel.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			children = (
 				158880D51F5F2D11001106B1 /* MasterDetailExampleTests.swift */,
 				158880D71F5F2D11001106B1 /* Info.plist */,
+				15BC91831F673077003998AC /* testPostFieldValidator.swift */,
 			);
 			path = MasterDetailExampleTests;
 			sourceTree = "<group>";
@@ -614,6 +617,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				158880D61F5F2D11001106B1 /* MasterDetailExampleTests.swift in Sources */,
+				15BC91841F673077003998AC /* testPostFieldValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
