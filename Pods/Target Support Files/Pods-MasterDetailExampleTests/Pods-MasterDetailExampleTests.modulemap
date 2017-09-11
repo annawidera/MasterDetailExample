@@ -1,0 +1,6 @@
+framework module Pods_MasterDetailExampleTests {
+  umbrella header "Pods-MasterDetailExampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
